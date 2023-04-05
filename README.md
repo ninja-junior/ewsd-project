@@ -26,16 +26,3 @@ Approved users
 - After the user comment on posts, the posts owner will receive the email
 
 
-xxx
-PHP is a computer language that is used by people to make things for the internet. Websites can be created by PHP because it can do a lot of things like collecting information and creating pages that change based on what people do. When PHP is used, the code is executed on the server, which is like a big computer that can't be seen by people. The final product is then sent to the person who is looking at the website, so people can see what was made but can't see the code that was used to make it. Other things can also be made using PHP, like programs that can run on your computer without needing to be connected to the internet. Many different types of databases can be talked to by PHP, which makes it easy to store and retrieve information. For example, PHP can be used to create a website that displays pictures of cats. The pictures can be stored using PHP and shown on the website whenever someone looks at it. (“PHP: What is PHP? - Manual,” n.d.)
-In summary, PHP is a useful tool that people use to create things on the internet, and it is easy to learn.
-
-Laravel is a widely used framework for building the back end of modern web applications. It includes various features that make it easier to create large-scale applications. One of the benefits of using Laravel is that it comes with built-in solutions for authentication and authorization. By running a few simple commands, developers can set up a strong and dependable system for authenticating and authorizing users within their web application.(“Laravel - The PHP Framework For Web Artisans,” n.d.)
-
-Laravel Livewire is a software library that allows developers to create modern, dynamic, and responsive user interfaces using the Laravel Blade template language. This combination of technologies is a perfect choice if you want to build a highly interactive and reactive application. It is an excellent alternative to using a complete JavaScript framework such as Vue.js. One of the key benefits of using Livewire is that your application's routes will still function like typical Blade templates. However, you can incorporate Livewire components into these templates as needed. This means that you can seamlessly integrate Livewire into your existing Laravel application, without having to rebuild your entire front-end. (“Livewire | Laravel Jetstream,” n.d.)
-
-//reference
-Laravel - The PHP Framework For Web Artisans [WWW Document], n.d. URL https://laravel.com/ (accessed 4.3.23).
-Livewire | Laravel Jetstream [WWW Document], n.d. URL https://jetstream.laravel.com/2.x/stacks/livewire.html (accessed 4.3.23).
-PHP: What is PHP? - Manual [WWW Document], n.d. URL https://www.php.net/manual/en/intro-whatis.php (accessed 4.3.23).
-
