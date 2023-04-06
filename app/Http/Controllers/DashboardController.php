@@ -11,6 +11,8 @@ class DashboardController extends Controller
     public function index()
     {
         $department= Auth::user()->department->name;        
+        $department?$department:"no department yet";
+
         return view('dashboard.index',['department'=>$department]);
     }
 
