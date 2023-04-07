@@ -29,6 +29,7 @@ class Create extends Component implements Forms\Contracts\HasForms
     public $published_at;
     public $isAnnonyous=false;
     public $display_name;
+    public $agree=false;
 
     public function mount()
     {

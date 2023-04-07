@@ -51,10 +51,13 @@ class Department extends Model
                 if($department->qaCoordinator)
                 {
                     $previousQAC = User::find($department->getOriginal('qac_id'));
+                    $previousDepartment=Department::find($department->getOriginal('qac_id'));
                     if($previousQAC) {
                         $previousQAC->update([
-                        'isQAC' => false,
-                        'department_id' => null
+                        'isQAC' => false,                                                
+                        ]);
+                        $previousDepartment->update([
+                            'qac_id'=>null
                         ]);
                     }
                 $department->qaCoordinator->update([

@@ -10,15 +10,16 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        $department= Auth::user()->department->name;        
-        $department?$department:"no department yet";
-
+        $department= Auth::user()->department;
+                // dd($department);
+        
         return view('dashboard.index',['department'=>$department]);
     }
 
     public function create()
     {
-        return view('dashboard.create');
+        $department= Auth::user()->department;
+        return view('dashboard.create',['department'=>$department]);
     }
 
     public function update(Post $post)
